@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animal</title>
+            <body>
+
+                <h1>Pet adoption application form</h1>
+                <form action="/submit_adoption" method="POST"></form>
+                <label for="name">Name:</label>
+                 <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <label action="email">Gmail</label>
+                <input type="text" id="gmail" name="Gmail" required>
+                <br><br>
+
+            <fieldset>
+            <legend>Pet Preference:</legend>
+            <input type="radio" id="dog" name="pet" value="Dog">
+            <label for="dog">Dog</label><br>
+
+            <input type="radio" id="cat" name="pet" value="Cat">
+            <label for="cat">Cat</label><br>
+
+            <input type="radio" id="bird" name="pet" value="Bird">
+            <label for="bird">Bird</label>
+        </fieldset>
+        <br>
+
+        <label for="reason">Why do you want to adopt?</label><br>
+        <textarea id="reason" name="reason" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <!-- Experience checkbox -->
+        <input type="checkbox" id="experience" name="experience">
+        <label for="experience">I have previous experience with pets</label>
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Submit Application">
+            
+    </body>
+        </head>
+</html>

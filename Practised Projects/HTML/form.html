@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="/submit" method="POST">
+        <!-- Name Input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Reason for Contacting (Radio Buttons) -->
+        <fieldset>
+            <legend>Reason for Contacting:</legend>
+
+            <input type="radio" id="inquiry" name="reason" value="inquiry" required>
+            <label for="inquiry">General Inquiry</label>
+            <br>
+
+            <input type="radio" id="support" name="reason" value="support" required>
+            <label for="support">Support</label>
+            <br>
+
+            <input type="radio" id="feedback" name="reason" value="feedback" required>
+            <label for="feedback">Feedback</label>
+        </fieldset>
+        <br>
+
+        <!-- Message Textarea -->
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <!-- Newsletter Subscription (Checkbox) -->
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to our newsletter</label>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Send">
+
+        <!-- Reset Button -->
+        <input type="reset" value="Reset Form">
+    </form>
+</body>
+</html>
