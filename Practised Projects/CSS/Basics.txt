@@ -1,0 +1,49 @@
+1.Colors-
+color:rgb(255,255,255) it indicates colors formed form red,green,blue
+ for white rgb(255,255,255),black rgb(0,0,0), yellow rgb(255,255,0), mixture of blue & green rgb(0,255,255)
+ pink rgb(255,0,255) 
+ 
+HexCode  #FFFFFF 6 letters first two letters show red,next 2 green,last 2 blue
+
+-Write Hexcode for CSS rgb(255,255,255) and tell what color is it
+also give hexcode for yellow and blue
+ans: #ffffff and it is white color, yellow- #ffff00 blue- #0000ff
+
+2.Text
+text-align left,right,center 
+text-weight bold,italic
+text-decoration underline,cut the line
+line-height 
+line-spacing
+font-size 20px
+
+3.Font weight
+font-weight:normal
+font-weight:bold
+font-weight:100
+font-weight:bolder
+font-weight: lighter 
+
+4.Text-decoration
+sets the appearance of decorative lines on text like underline
+text-decoration:underline
+text-decoration:overline
+text-decoration:line-through
+text-decoration: none
+we can change color,style as well text-decoration:red underline text-decoration:dotted underline
+
+5.Line height- controls height of the line
+line-height-normal
+line-hiehgt- 2.5 
+6.letter-spacing: controls horizontal spacing behavior between text characters
+letter-spacing:normal
+letter-spacing: 10px
+
+6.units 
+px pixcels absolute unit
+pc pt relative unit
+
+7.font-family- prioritsed list of one or more font family names
+font-family:arial
+font-family:avant garde,didot,sans-serif 
+
