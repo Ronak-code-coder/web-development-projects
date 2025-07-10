@@ -1,0 +1,54 @@
+*{      /*Universal Selector*/
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{     /*Elemental Selector*/
+    color:purple;
+}
+h1{
+    color: #b92b27;
+}
+#login{   /*ID Selector*/
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{    /*Class Selector*/
+    background-color: green;
+    color: aliceblue;
+}
+.post a{        /*Descendent Selector*/
+    color:#b92b27;
+    background-color: yellow;
+}
+nav ul li a{
+    color: hotpink;
+}
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{         /*Sibling Selector*/
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+div > input{            /*Child Selector*/
+    background-color: darkgrey;
+}
+
+input[type$="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color: lightgrey;
+}
+button:hover{       /*Pseudo-class Selector*/
+    background-color: darkblue;
+    color:chocolate;
+}
+h3:hover{
+    text-decoration: underline;
+}

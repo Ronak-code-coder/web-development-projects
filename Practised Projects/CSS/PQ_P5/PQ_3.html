@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.greetDiv .greet {
+            color: lightblue; /* Element Selector  0 2 1 */
+        }
+        .greetDiv p.greet {
+            color: orange; /* Class Selector 0 2 1,since 21 is in both this came after ->cascading so orange would be shown*/
+        }
+        .greetDiv .greet {
+            color: red; /* Class Selector  0 2 0*/
+        }
+    </style>
+</head>
+<body>
+    <div class="greetDiv">
+        <p class="greet">Hello, World!</p>
+    </div>
+</body>
+</html>
