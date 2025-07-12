@@ -52,3 +52,25 @@ button:hover{       /*Pseudo-class Selector*/
 h3:hover{
     text-decoration: underline;
 }
+input[type="radio"]:checked + label{
+    color:blueviolet;
+    font-weight: bold;
+}
+.post:nth-of-type(3n){
+    background-color: blanchedalmond;
+}
+p::first-letter{    /*Pseudo elements- ::first-letter, ::first-line, ::selection*/
+    color:black;
+}
+h1::first-line{
+    color:blue;
+}
+p::selection{
+    background-color:light green;
+}
+h3{
+    background:yellow;
+}
+h3{
+    background-color:blue;/*this is cascading */
+}

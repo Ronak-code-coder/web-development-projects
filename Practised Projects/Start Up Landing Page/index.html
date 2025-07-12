@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Startup Landing Page</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="logo">LaunchX</h1>
+    <div class="nav-right">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="tech_startup.png" alt="Startup Banner" class="hero-img" />
+    <h2>Launch your startup in minutes 🚀</h2>
+    <p class="subheading">The all-in-one platform to build, host & grow — without writing a single line of code.</p>
+    <p>We help you build, host, and scale fast — no code needed.</p>
+    <a href="#contact" class="cta-btn">Get Started</a>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <i class="fas fa-magic fa-2x"></i>
+        <h3>No-Code Tools</h3>
+        <p>Build your site visually using intuitive drag-and-drop tools.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-cloud-upload-alt fa-2x"></i>
+        <h3>Free Hosting</h3>
+        <p>Deploy your startup in seconds with fast, secure, and free hosting.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-chart-line fa-2x"></i>
+        <h3>Analytics Dashboard</h3>
+        <p>Track your performance with real-time analytics and growth insights.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-cards">
+      <div class="price-card">
+        <h3>Free</h3>
+        <p>₹0/month</p>
+        <p>For students and hobbyists</p>
+      </div>
+      <div class="price-card">
+        <h3>Pro</h3>
+        <p>₹499/month</p>
+        <p>Best for startups</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@launchx.com</p>
+    <p>Follow us on Instagram, Twitter & LinkedIn</p>
+  </section>
+
+  <footer>
+    <p>© 2025 LaunchX. All rights reserved.</p>
+    <p>Made by Ronak Malpani · MIT WPU CSE</p>
+    <div>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    // Dark mode toggle
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
